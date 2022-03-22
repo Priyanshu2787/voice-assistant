@@ -124,7 +124,7 @@ if __name__ == "__main__":
         
         elif "search in chrome" in query:
             speak("what you want to search")
-            chromepath = "C:\Program Files\BraveSoftware\Brave-Browser\Application"
+            chromepath = ""
             search = takecommand().lower()
             wb.get(chromepath).open_new_tab(search + ".com")
         
